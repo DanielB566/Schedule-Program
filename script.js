@@ -1,7 +1,15 @@
 $(document).ready(function () {
-    const btn = $("#sumbitDay");
+    const btn = $("#submitDay");
 
     btn.on('click', function () {
+        const selectedDay = $("#dayInput").val().trim().toUpperCase();
+
+        // Validate the day input
+        if (!["A", "B", "C", "D", "E", "F", "G"].includes(selectedDay)) {
+            alert("Please enter a valid day (A-G)");
+            return;
+        }
+        
         $.ajax({
             url: `https://www.npoint.io/docs/e0e0a960103ef64e67c7`,
             method: 'GET',

@@ -1,56 +1,95 @@
 {
-    "schedule": [
+  "schedule": [
       {
-        "class": "AP Computer Science A",
-        "teacher": "Ms. Rehwinkle",
-        "room": "A234",
-        "period": 1,
-        "days": ["A", "B", "C", "E", "F"]
+          "class": "AP Computer Science A",
+          "teacher": "Rehwinkel",
+          "room": "A234",
+          "period": 1,
+          "days": [
+              "A",
+              "B",
+              "C",
+              "E",
+              "F"
+          ]
       },
       {
-        "class": "Web Design",
-        "teacher": "Mr. Kilgore",
-        "room": "B111",
-        "period": 2,
-        "days": ["A", "B", "D", "E", "F"]
-      },
-      
-      {
-        "class": "AP Calculus AB",
-        "teacher": "Mr. Sandoval",
-        "room": "A219",
-        "period": 3,
-        "days": ["A", "B", "D", "E", "F", "G"]
+          "class": "Web Design",
+          "teacher": "Kilgore",
+          "room": "B111",
+          "period": 2,
+          "days": [
+              "A",
+              "B",
+              "D",
+              "E",
+              "F"
+          ]
       },
       {
-        "class": "Physical Ed 12",
-        "teacher": "Mr. Levi",
-        "room": "GYM Q2",
-        "period": 4,
-        "days": ["B", "C", "D", "F", "G"]
-      },
-      
-      {
-        "class": "Applied Art 1",
-        "teacher": "Ms. Casella",
-        "room": "D101",
-        "period": 5,
-        "days": ["A", "B", "D", "E", "G"]
+          "class": "AP CALC AB",
+          "teacher": "Sandoval",
+          "room": "A219",
+          "period": 3,
+          "days": [
+              "A",
+              "C",
+              "D",
+              "E",
+              "G"
+          ]
       },
       {
-        "class": "AP Macroeconomics",
-        "teacher": "Mr. Anderson",
-        "room": "A106",
-        "period": 6,
-        "days": ["A", "C", "D", "F", "G"]
+          "class": "Gym/Health",
+          "teacher": "Levi",
+          "room": "GYM Q2",
+          "period": 4,
+          "days": [
+              "B",
+              "C",
+              "D",
+              "F",
+              "G"
+          ]
       },
       {
-        "class": "English 4",
-        "teacher": "Dr. Patel",
-        "room": "E115",
-        "period": 7,
-        "days": ["B", "C", "E", "F", "G"]
+          "class": "Applied Art 1",
+          "teacher": "Casella",
+          "room": "D101",
+          "period": 5,
+          "days": [
+              "A",
+              "B",
+              "D",
+              "E",
+              "G"
+          ]
+      },
+      {
+          "class": "AP Macroeconomics",
+          "teacher": "Anderson",
+          "room": "A106",
+          "period": 6,
+          "days": [
+              "A",
+              "C",
+              "D",
+              "F",
+              "G"
+          ]
+      },
+      {
+          "class": "English 4",
+          "teacher": "Patel",
+          "room": "E115",
+          "period": 7,
+          "days": [
+              "B",
+              "C",
+              "E",
+              "F",
+              "G"
+          ]
       }
-    ]
-  }
-  
+  ]
+}
